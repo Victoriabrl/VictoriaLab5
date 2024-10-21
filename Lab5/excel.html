@@ -21,24 +21,25 @@
         <form id="excel-form" name="excelform">
             <label for="numbers">Enter your numbers separated by spaces:</label>
             <input type="text" id="numbers" name="numbers" required><br><br> 
-                
-            <input type="radio" id="AutoSum" name="functions" value="AutoSum" checked>
+                    
+            <input type="radio" id="AutoSum" name="function" value="AutoSum" checked>
             <label for="AutoSum">AutoSum</label><br>
-                
-            <input type="radio" id="Average" name="functions" value="Average">
+                    
+            <input type="radio" id="Average" name="function" value="Average">
             <label for="Average">Average</label><br>
-                
+                    
             <input type="radio" id="Max" name="function" value="Max">
             <label for="Max">Max</label><br>
-
+        
             <input type="radio" id="Min" name="function" value="Min">
             <label for="Min">Min</label><br><br>
-
+        
             <button type="button" id="calculate">Calculate</button><br><br>
-
+        
             <label for="result">Result:</label>
-            <input type="text" id="result" name="result"><br><br> 
+            <input type="text" id="result" name="result" readonly><br><br> 
         </form>
+
     </main>  
      
     <button id="blue">Blue Theme</button>
