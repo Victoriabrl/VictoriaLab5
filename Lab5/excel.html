@@ -1,0 +1,57 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/styles.css">
+    
+    <title>Excel Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="excel-form" name="excelform">
+            <label for="numbers">Enter your numbers separated by spaces:</label>
+            <input type="text" id="numbers" name="numbers" required><br><br> 
+                
+            <input type="radio" id="AutoSum" name="functions" value="AutoSum" checked>
+            <label for="AutoSum">AutoSum</label><br>
+                
+            <input type="radio" id="Average" name="functions" value="Average">
+            <label for="Average">Average</label><br>
+                
+            <input type="radio" id="Max" name="function" value="Max">
+            <label for="Max">Max</label><br>
+
+            <input type="radio" id="Min" name="function" value="Min">
+            <label for="Min">Min</label><br><br>
+
+            <button type="button" id="calculate">Calculate</button><br><br>
+
+            <label for="result">Result:</label>
+            <input type="text" id="result" name="result"><br><br> 
+        </form>
+    </main>  
+     
+    <button id="blue">Blue Theme</button>
+    <button id="red">Red Theme</button>
+    <footer>
+        <p>
+            ILAC & EFREI - HTML, CSS, and JavaScript Assignment - BREULING Victoria
+        </p>
+    </footer>
+
+    
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
